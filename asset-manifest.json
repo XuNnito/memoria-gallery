@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/memoria-gallery/static/css/main.0c96de72.css",
+    "main.js": "/memoria-gallery/static/js/main.3a63e112.js",
+    "static/js/453.4355e8a3.chunk.js": "/memoria-gallery/static/js/453.4355e8a3.chunk.js",
+    "static/media/Almita.jpg": "/memoria-gallery/static/media/Almita.7ea636e8a07f1c3a47fd.jpg",
+    "static/media/o.jpg": "/memoria-gallery/static/media/o.14671c450e2d1f8b3795.jpg",
+    "static/media/enfermera.jpg": "/memoria-gallery/static/media/enfermera.73d5b5298c036384f9c5.jpg",
+    "static/media/dibujo ojito.jpg": "/memoria-gallery/static/media/dibujo ojito.143d649b4799c114b1e1.jpg",
+    "index.html": "/memoria-gallery/index.html",
+    "main.0c96de72.css.map": "/memoria-gallery/static/css/main.0c96de72.css.map",
+    "main.3a63e112.js.map": "/memoria-gallery/static/js/main.3a63e112.js.map",
+    "453.4355e8a3.chunk.js.map": "/memoria-gallery/static/js/453.4355e8a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c96de72.css",
+    "static/js/main.3a63e112.js"
+  ]
+}
