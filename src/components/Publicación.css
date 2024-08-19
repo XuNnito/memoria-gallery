@@ -1,0 +1,46 @@
+.publicación {
+  width: 150px; /* Ajusta el ancho según tus necesidades */
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #242323b9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  
+}
+
+.publicación-header {
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+  background-color: #000000bd;
+
+}
+
+.publicación-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #f7efef;
+}
+
+.publicación-image img {
+  width: 110px;
+  height: 180px;
+  border: 1px solid auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.publicación-image img:hover {
+  transform: scale(1.2);
+}
+
+.publicación-caption {
+  padding: 10px;
+}
+
+.publicación-caption p {
+  margin: 0;
+  font-size: 1em;
+  color: #8f8c8c;
+}

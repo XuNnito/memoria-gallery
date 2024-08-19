@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centra verticalmente el contenido */
+  padding: 10px;
+  background: linear-gradient(to bottom, #000000 10%, #110b0b 60%, #080707 80%);
+  border-bottom: 1px solid #dbdbdb;
+  border-radius: 10px; /* Bordes redondeados más suaves */
+  text-align: center;
+  position: fixed; /* Fija el encabezado en la parte superior */
+  top: 0; /* Alinea el encabezado con la parte superior de la ventana */
+  left: 0; /* Alinea el encabezado con el borde izquierdo de la ventana */
+  width: 100%; /* Asegura que el encabezado ocupe todo el ancho de la ventana */
+  height: 30px; /* Ajusta la altura para mayor comodidad */
+  z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+  margin-top: 5px; /* Espacio adicional en la parte superior */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para mejorar la visibilidad */
+}
+
+
+.header-left {
+  flex: 1; 
+}
+
+.header-right {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.header-left h2 {
+  position: 10px;
+  font-size: 18px;
+  margin: 0; 
+  color: #fff; 
+  white-space: nowrap;
+}
+
+.header-right .profile-pic {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 1px;
+  left: -10%;
+  border: 1px solid #fff; /* Añade un borde blanco alrededor de la imagen */
+  object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.profile-pic.expanded {
+  transform: scale(1.5);
+}
+
+.popup-message {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  background-color: rgb(255, 254, 254);
+  color: rgb(12, 12, 12);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.popup-message p {
+  margin: 0;
+  background-color: #fff;
+  font-size: 14px;
+}

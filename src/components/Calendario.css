@@ -1,0 +1,141 @@
+ .calendario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #69aa8c 10%, #41c461 60%, #24b422 80%);
+    border-radius: 10px;
+ }
+  .calendario-container {
+      background-color: #0f0f0f;
+      padding: 20px;
+      border-radius: 10px;
+      width: 100%;
+      height: 90%;
+      text-align: center;
+      overflow: hidden;
+      border: 4px solid #f1eaea;
+      box-shadow: 0 0 4px #f1eaea;
+  }
+  
+    .calendario-container h2 {
+      margin-bottom: 10%;
+      font-size: 24px;
+      color: #f8f3f3;
+      margin: 0 auto;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  
+  .botones-container {
+    margin-bottom: 15px;
+
+  }
+  
+  .botones-container button { /*mes anterios y siguiente*/
+    padding: 4px 5px;
+    font-size: 14px;
+    background-color: #1d1b1b;
+    color: white;
+    border: #ddd;
+    border-radius: 30px;
+    cursor: pointer;
+    top: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botones-container button:hover {
+    background-color: #788178;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color: #59917aa4;
+    font-size: 14px;
+    color: #f8f2f2; 
+    height: 40%;
+    width: 40%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-item.day.vacio {
+    visibility: hidden;
+  }
+  
+  .grid-item.day.hoy {
+    background-color: #69cc8a; /* Color para el día actual */
+    color: #e9e1e1; /* Color del texto para el día actual */
+    font-weight: bold;
+  }
+  
+  .grid-item.day:hover {
+    transform: scale(1.5);
+  }
+  
+  .dia-circulo {
+    border-radius: 50%;
+    padding: 3px;
+    font-weight: bold;
+  }
+  
+  .grid-item.header {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0;
+    height: auto;
+    width: auto;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .grid-container.slide-in {
+    animation: slideIn 0.3s forwards;
+  }
+  
+  .grid-container.slide-out {
+    animation: slideOut 0.3s forwards;
+  }
+  
