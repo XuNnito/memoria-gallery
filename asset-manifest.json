@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/memoria-gallery/static/css/main.4ec97b6e.css",
-    "main.js": "/memoria-gallery/static/js/main.f8008f90.js",
+    "main.css": "/memoria-gallery/static/css/main.9c7b4886.css",
+    "main.js": "/memoria-gallery/static/js/main.d967d01d.js",
     "static/js/453.4355e8a3.chunk.js": "/memoria-gallery/static/js/453.4355e8a3.chunk.js",
     "static/media/Almita.jpg": "/memoria-gallery/static/media/Almita.7ea636e8a07f1c3a47fd.jpg",
     "static/media/o.jpg": "/memoria-gallery/static/media/o.14671c450e2d1f8b3795.jpg",
@@ -16,12 +16,12 @@
     "static/media/fa-v4compatibility.ttf": "/memoria-gallery/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/memoria-gallery/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/memoria-gallery/index.html",
-    "main.4ec97b6e.css.map": "/memoria-gallery/static/css/main.4ec97b6e.css.map",
-    "main.f8008f90.js.map": "/memoria-gallery/static/js/main.f8008f90.js.map",
+    "main.9c7b4886.css.map": "/memoria-gallery/static/css/main.9c7b4886.css.map",
+    "main.d967d01d.js.map": "/memoria-gallery/static/js/main.d967d01d.js.map",
     "453.4355e8a3.chunk.js.map": "/memoria-gallery/static/js/453.4355e8a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ec97b6e.css",
-    "static/js/main.f8008f90.js"
+    "static/css/main.9c7b4886.css",
+    "static/js/main.d967d01d.js"
   ]
 }
